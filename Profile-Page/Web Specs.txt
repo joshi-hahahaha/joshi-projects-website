@@ -1,0 +1,30 @@
+Website Specifications:
+- Profile Picture
+- Personal Information
+    - Full name
+    - Age
+    - Hobbies
+    - Personality
+- Certifications
+    - Achievements
+    - Course/Degree
+    - Academic Route
+- Contact Details: make the socials hyperlinks to profile page on website or something
+    - Instagram
+    - Discord
+    - Email
+    - Number: would probably leave this blank
+
+Design:
+- Colours:
+    - Primary: #696969 - for the background behind main texts
+    - Secondary: #404040 - for the background of footer and header
+    - Accent: #ffffff - for all accents (outlines, boxes, font)
+- Font style: Poppins, san-serif, size and writing types will differ depending on the purpose
+    - headers will be large and bold
+    - normal text will be either 12-16px
+
+
+#404040 - dark grey
+#696969 - light grey
+#ffffff - white
