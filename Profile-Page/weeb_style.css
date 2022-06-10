@@ -161,15 +161,17 @@ div.scroll_box {
     margin-right: 10px;
 }
 
-.scroll_box li {
-    padding-left: 2em;
-    text-indent: -2em;
-    margin-bottom: 5px;
-}
 
-.scroll_box li::before {
-    content: "🌸"
-}
+.scroll_box li {
+    margin-left: 1em;
+    /* padding-left: 2em;
+    text-indent: -2em;
+    margin-bottom: 5px; */
+  }
+  
+  .scroll_box li::marker {
+    content: "🌸";
+  }
 
 .scroll_box a {
     color: #fff;
@@ -246,12 +248,13 @@ div.scroll_box {
     /* Full width */
     height: 100%;
     /* Full height */
-    overflow: none;
+    overflow: auto;
     /* Enable scroll if needed */
     background-color: rgb(0, 0, 0);
     /* Fallback color */
     background-color: rgba(0, 0, 0, 0.9);
     /* Black w/ opacity */
+
   }
   
   .modal-content {
@@ -288,7 +291,7 @@ div.scroll_box {
   }
   
   .close {
-    position: absolute;
+    position: fixed;
     top: 15px;
     right: 35px;
     color: #f1f1f1;

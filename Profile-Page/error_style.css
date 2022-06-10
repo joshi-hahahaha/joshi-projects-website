@@ -1,22 +1,19 @@
+.text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.glowtop {
+  margin-top: 30vh;
+}
+
 p {
     font-size: 60px;
     text-align: center;
     color: #660000; 
 }
-
-.glowtop {
-    position:absolute;
-    top: 25%;
-    left: 42.5%;
-}
-
-.glowbottom {
-    position:absolute;
-    top: 50%;
-    left: 22.5%;
-}
-
-
 
 body {
     background-color: black;
